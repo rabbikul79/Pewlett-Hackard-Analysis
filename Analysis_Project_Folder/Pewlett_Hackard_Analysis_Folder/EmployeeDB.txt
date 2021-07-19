@@ -6,7 +6,7 @@ dept_name varchar
 Dept_Emp
 -
 dept_no varchar pk fk - Manager.dept_no
-emp_no int fk - Salaries.emp_no
+emp_no int pk fk - Employees.emp_no
 from_date date
 to_date date
 
@@ -22,13 +22,13 @@ hire_date date
 Manager
 -
 dept_no varchar pk fk - Departments.dept_no
-emp_no int fk - Employees.emp_no
+emp_no int pk fk - Employees.emp_no
 from_date date
 to_date date
 
 Salaries
 -
-emp_no int pk fk - Employees.emp_no
+emp_no int pk fk - Dept_Emp.emp_no
 salary float
 from_date date 
 to_date date
