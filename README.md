@@ -4,6 +4,7 @@
  Pewlett Hackard – a large company with thousands of employees is approaching towards an employee crisis what is named as “silver tsunami” as lot of their baby boomers employee reaching towards retirement age. This will create large vacancy throughout the company. The company needs to be prepared for generating retirement package for the employees who’ll leave the company as well as figuring out the positions that’ll need to be filled. The purpose of the analysis is to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. 
 
 ## Results:
+## Deliverable 1
 -	Identified the all the employee’s information who were born between 1952 and 1955 with all the job titles and stored those data in retirement_titles.csv file.
 
 ![retirement_titles_table](https://user-images.githubusercontent.com/85530486/127753152-3dc4cd7e-9f7e-4c20-a293-ee2a85507eb9.png)
@@ -14,7 +15,7 @@
 
 -	Created query using count and groupby function to calculate total employee by title who’ll be retiring and stored those data in retiring_titles.csv file.
 
-![retirement_titles_table](https://user-images.githubusercontent.com/85530486/127753163-78ce2ac7-e9e3-462d-9f71-aae35ed5336e.png)
+![retiring_titles_table](https://user-images.githubusercontent.com/85530486/127754000-80ea9612-c992-4632-926d-a6b0e78f7bbe.png)
 
 -	Created query using count and groupby function to calculate total employee who are born between January 1, 1965 and December 31, 1965 to figure out the number of employees who are eligible for mentorship and stored those data in mentorship_eligibilty.csv file.
 
