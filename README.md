@@ -5,7 +5,7 @@
 
 ## Results:
 ## Deliverable 1
--	Identified the all the employee’s information who were born between 1952 and 1955 with all the job titles and stored those data in retirement_titles.csv file.
+-	Identified all the employee’s information who were born between 1952 and 1955 with all the job titles and stored those data in retirement_titles.csv file.
 
 ![retirement_titles_table](https://user-images.githubusercontent.com/85530486/127753152-3dc4cd7e-9f7e-4c20-a293-ee2a85507eb9.png)
 
