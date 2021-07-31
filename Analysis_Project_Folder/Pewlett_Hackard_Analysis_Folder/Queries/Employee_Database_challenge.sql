@@ -4,6 +4,7 @@ FROM employees;
 SELECT title, from_date, to_date
 FROM titles;
 
+-- Delivarable 1 creating retirement_titles.csv
 SELECT e.emp_no, e.first_name, e.last_name,
 		t.title, t.from_date, t.to_date	
 INTO retirement_titles
@@ -14,6 +15,7 @@ WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31');
 
 SELECT * FROM retirement_titles;
 
+-- Delivarable 1 creating unique_titles.csv
 SELECT DISTINCT ON (emp_no) emp_no,
 first_name,
 last_name,
@@ -24,6 +26,7 @@ ORDER BY emp_no asc, to_date DESC;
 
 SELECT * FROM unique_titles;
 
+-- Delivarable 1 creating retiring_titles.csv
 select  count(title), title
 into retiring_titles
 from unique_titles
@@ -32,6 +35,8 @@ order by count(title) desc;
 
 select * from retiring_titles;
 
+
+-- Delivarable 2
 SELECT emp_no,first_name, last_name, birth_date FROM employees;
  
 SELECT from_date, to_date FROM dept_emp;
@@ -67,6 +72,7 @@ ORDER BY emp_no, to_date DESC;
 
 SELECT * FROM mentorship_eligibilty;
 
+-- Summary query
 SELECT count(title) FROM unique_titles;
 
 SELECT count(emp_no) FROM mentorship_eligibilty;
