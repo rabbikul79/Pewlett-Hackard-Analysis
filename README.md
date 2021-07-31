@@ -17,6 +17,7 @@
 
 ![retiring_titles_table](https://user-images.githubusercontent.com/85530486/127754000-80ea9612-c992-4632-926d-a6b0e78f7bbe.png)
 
+## Deliverable 2
 -	Created query using count and groupby function to calculate total employee who are born between January 1, 1965 and December 31, 1965 to figure out the number of employees who are eligible for mentorship and stored those data in mentorship_eligibilty.csv file.
 
 ![mentorship_eligibilty_table](https://user-images.githubusercontent.com/85530486/127753170-77cbcbe9-b6e3-4cda-8e8f-94f8800a16ac.png)
